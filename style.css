@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Arial Black";
+}
+
+button {
+    background-color: cornflowerblue;
+    color: #225618;
+    border-color: #d30f0f;
+    border-radius: 15px;
+    width: 12rem;
+    height: 5rem;
+    margin: 10rem;
+    transition: background-color, border-color, color, height, width;
+    transition-duration: 1s, 3s, 2s, 3s, 2s;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #b1bcd0;
+    border-color: #e0a3a3;
+    color: #77d366;
+    height: 10rem;
+    width: 25rem;
+}
